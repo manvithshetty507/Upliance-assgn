@@ -1,0 +1,111 @@
+/* Default styles */
+.profile-container {
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+
+.form-title {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.user-form {
+  margin-bottom: 20px;
+}
+
+.form-label {
+  margin-bottom: 10px;
+  font-size: 16px;
+  color: #555;
+}
+
+.form-input {
+  padding: 10px;
+  margin-bottom: 15px;
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.submit-button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.submit-button:hover {
+  background-color: #0056b3;
+}
+
+.editor-title {
+  font-size: 24px;
+  margin-top: 30px;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.editor-container {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #fff;
+}
+
+.editor {
+  min-height: 300px;
+  border: none;
+  border-radius: 4px;
+  padding: 10px;
+  font-size: 16px;
+  color: #333;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+  .profile-container {
+    margin: 10px;
+    padding: 15px;
+  }
+
+  .form-title {
+    font-size: 20px;
+    margin-bottom: 15px;
+  }
+
+  .form-label {
+    font-size: 14px;
+    margin-bottom: 8px;
+  }
+
+  .form-input {
+    padding: 8px;
+    margin-bottom: 10px;
+    font-size: 14px;
+  }
+
+  .submit-button {
+    padding: 8px 16px;
+    font-size: 14px;
+  }
+
+  .editor-title {
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+
+  .editor {
+    min-height: 200px;
+    font-size: 14px;
+  }
+}
